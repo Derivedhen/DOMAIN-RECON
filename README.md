@@ -1,7 +1,7 @@
 ![image](https://github.com/Derivedhen/DOMAIN-RECON/assets/105069842/524c6bb1-7acc-4c72-806b-0365baabff73)
 
 ### SOBRE
-Ferramenta criada para fazer o reconhecimento de um determinado domínio, trazendo as seguintes informações:
+Ferramenta criada para realizar o reconhecimento de um determinado domínio, trazendo as seguintes informações:
 ```
 NAME SERVERS
 MX SERVERS
