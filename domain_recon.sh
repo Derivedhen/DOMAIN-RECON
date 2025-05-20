@@ -47,10 +47,10 @@ else
 		dig -t AXFR $1 @$nameserver
 	done
 
-	# BRUTE FORCE SUBDOMAIN
+	# ENUMERAÇÃO DE SUBDOMÍNIOS
 	echo
 	echo
-	echo "-> BRUTE FORCE SUBDOMAIN, WORDLIST: subdomains.txt"
+	echo "-> ENUMERAÇÃO SUBDOMAIN, WORDLIST: subdomains.txt"
 	echo -----------------------------------------------
 	for subdomain in $(cat subdomains.txt); do
 		host $subdomain.$1 | grep -v "NXDOMAIN"
